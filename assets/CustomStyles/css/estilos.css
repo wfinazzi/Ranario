@@ -1,0 +1,193 @@
+//@import "font/font.css";
+//@import "prettyphoto.css";
+//@import "mosaic.css";
+
+html {
+      height: 70%;
+      margin: 0;
+    }
+
+    .wrapper {
+      min-height: 70%;
+      margin-bottom: -50px;
+    }
+
+    .footer,
+    .push {
+      height: 50px;
+    }  
+
+
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+
+    
+    
+body {
+	font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+	font-size: 13px;
+        height: 100%;
+        margin: 0 auto;    
+}
+.logo {
+	margin-top: 22px
+}
+h1, h2, h3, h4, h5 {
+	//text-transform: uppercase
+}
+h2 {
+	font-size: 30px;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #eee;
+	color: #e47b38
+}
+h3 {
+	font-size: 30px;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #eee;
+	color: #e47b38
+}
+h4 {
+	font-weight: 700
+}
+
+
+footer {
+	background: #e47b38;
+	margin-top: 40px;
+	color: #fff;
+}
+footer .footer-fixed {
+	position: fixed;
+        height: 200px;
+        bottom: 0;
+}
+footer .container {
+	border-top: none;
+	color: #fff
+}
+footer a {
+	color: #FFF;
+	text-transform: uppercase
+}
+footer a:hover {
+	color: #CCC
+}
+footer-links li a:hover {
+	color: #CCC
+}
+footer .span4 {
+	color: #FFF
+}
+.top-part {
+	border-bottom: 1px solid #FFF;
+	overflow: hidden;
+	padding: 20px 0;
+	margin-bottom: 20px;
+	color: #FFF
+}
+.footer-links {
+	list-style: none;
+	margin-left: 0
+}
+.footer-links li {
+	float: left;
+	display: inline;
+	margin-right: 15px
+}
+.footer-links li a {
+	color: #FFF;
+	text-transform: uppercase;
+	border-right: 1px solid #FFF;
+	padding-right: 15px
+}
+.footer-links li a:hover {
+	color: #CCC;
+	text-decoration: none
+}
+.socials {
+	padding: 20px 0;
+	padding-top: 0;
+	color: #FFF;
+	text-transform: uppercase
+}
+.socials span {
+	display: block;
+	float: left;
+	margin-right: 10px
+}
+.socials i {
+	font-size: 30px;
+	margin: 0 1px;
+	color: #fff
+}
+.socials a:hover i {
+	color: #fff;
+	text-decoration: none
+}
+
+
+.table-price {
+	padding: 30px;
+	box-shadow: 0 0 7px 0 #999;
+	-webkit-box-shadow: 0 0 7px 0 #999;
+	-moz-box-shadow: 0 0 7px 0 #999;
+	-o-box-shadow: 0 0 7px 0 #999;
+	position: relative;
+	text-align: center;
+	margin-bottom: 40px
+}
+h3.plan-name {
+	font-family: 'AmbleBold', Arial, Helvetica, sans-serif;
+	font-size: 25px
+}
+.price {
+	width: 104%;
+	background: #f3f3f3;
+	border: 1px solid #ccc;
+	position: absolute;
+	left: -7px;
+	float: left;
+	font-family: 'AmbleBold', Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	color: #e47b38;
+	text-shadow: 1px 1px #fff;
+	padding: 28px 0
+}
+.price span {
+	font-size: 15px;
+	font-family: 'AmbleLight', Arial, Helvetica, sans-serif
+}
+.table-price p {
+	display: block;
+	margin-top: 110px;
+	margin-bottom: 20px;
+	color: #999
+}
+
+
+
+//Detalhes Processos
+
+
